@@ -17,7 +17,7 @@ link_file() {
 }
 
 # .zshrcのリンク
-# link_file "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
+link_file "$DOTFILES_DIR/zshrc" "$HOME/.zshrc"
 
 # .vimrcのリンク
 link_file "$DOTFILES_DIR/vimrc" "$HOME/.vimrc"
